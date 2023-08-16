@@ -1,9 +1,21 @@
 {
   "dependencies": {
+    "cities": "^2.0.0",
     "package-name": "^0.1.0"
   },
-
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "name": "node.js",
+  "description": "git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/lettie-zulu/NodeJS.git\r git push -u origin main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "^1.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
