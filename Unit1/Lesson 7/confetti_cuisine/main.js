@@ -6,6 +6,7 @@ const port = 3000,
     router = require("./router"),
     contentTypes = require("./contentTypes"),
     utils = require("./utils");
+    
 router.get("/", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.htm);
     utils.getFile("views/index.html", res);
